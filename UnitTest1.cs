@@ -15,7 +15,6 @@ namespace TestGosuslugi
         [SetUp]
         public void Setup()
         {
-            // Создаем экземпляр драйвера
             driver = new EdgeDriver();
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
         }
